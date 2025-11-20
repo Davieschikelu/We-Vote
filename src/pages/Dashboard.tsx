@@ -86,7 +86,7 @@ const Dashboard = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Vote className="w-6 h-6 text-primary" />
-            <h1 className="text-2xl font-bold">BU Vote</h1>
+            <h1 className="text-2xl font-bold">WE Vote</h1>
           </div>
           <div className="flex items-center gap-4">
             {isAdmin && (
@@ -139,7 +139,7 @@ const Dashboard = () => {
                             <Badge variant="secondary">Anonymous</Badge>
                           )}
                           {hasVoted && (
-                            <Badge variant="default" className="bg-success">Voted</Badge>
+                            <Badge variant="default" className="bg-success">Voted!</Badge>
                           )}
                         </div>
                       </div>
